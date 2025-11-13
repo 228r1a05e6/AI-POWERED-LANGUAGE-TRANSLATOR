@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="text-input">
+        <textarea class="from-text" placeholder="Enter text here..."></textarea>
+        <textarea class="to-text" placeholder="Translation..." disabled></textarea>
+      </div>
+      <div class="controls">
+        <div class="row from">
+          <select class="from-select"></select>
+          <div class="icons">
+            <i class="fa fa-copy" id="from"></i>
+            <i class="fa fa-volume-up" id="from"></i>
+          </div>
+        </div>
+        <div class="exchange">
+          <i class="fa fa-exchange"></i>
+        </div>
+        <div class="row to">
+          <select class="to-select"></select>
+          <div class="icons">
+            <i class="fa fa-copy" id="to"></i>
+            <i class="fa fa-volume-up" id="to"></i>
+          </div>
+        </div>
+      </div>
+      <button>Translate</button>
+    </div>
+  </div>
+  <script src="countries.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
